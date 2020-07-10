@@ -8,6 +8,10 @@ form {
     }
   }
   
+  form.story-editor {
+    margin-bottom: 2em;
+  }
+  
   .story-content {
     // 作者
     .profile {
@@ -74,5 +78,16 @@ form {
         margin-top: 8px;
         margin-bottom: 1em;
       }
+
+      P {
+        color: darkgrey
+      }
+    }
+    
+
+    // bookmark
+    .bookmark-button{
+      margin-left: 1em;
+      font-size: 1.4em;
     }
   }
