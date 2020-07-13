@@ -26,6 +26,8 @@ gem 'aasm', '~> 5.0', '>= 5.0.8'
 gem 'friendly_id', '~> 5.3'
 gem 'babosa', '~> 1.0', '>= 1.0.3'
 gem 'paranoia', '~> 2.4', '>= 2.4.2'
+gem 'figaro', '~> 1.2'
+gem "braintree", "~> 2.102.0"
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'

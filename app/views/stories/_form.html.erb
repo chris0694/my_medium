@@ -31,3 +31,5 @@
         <%= form.submit '文章下架', name: 'unpublish', class: 'button is-medium is-danger' if story.may_unpublish? %>
     </div>
 <% end %>
+
+<%= javascript_pack_tag 'editor' %>
